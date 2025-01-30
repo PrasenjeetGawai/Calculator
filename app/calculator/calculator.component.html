@@ -1,0 +1,47 @@
+
+<div class="body">
+
+    <div class="calculator">
+
+        <input [value]="userInput" type="text"  id="input-box" placeholder="0">
+    
+        <div>
+            <button (click)="onClickButton('AC')" class="operators">AC</button>
+            <button (click)="onClickButton('DEL')" class="operators">DEL</button>
+            <button (click)="onClickButton('%')" class="operators">%</button>
+            <button (click)="onClickButton('/')" class="operators">/</button>
+        </div>
+    
+        <div>
+            <button (click)="onClickButton('7')">7</button>
+            <button (click)="onClickButton('8')">8</button>
+            <button (click)="onClickButton('9')">9</button>
+            <button (click)="onClickButton('*')" class="operators">*</button>
+        </div>
+    
+        <div>
+            <button (click)="onClickButton('4')">4</button>
+            <button (click)="onClickButton('5')">5</button>
+            <button (click)="onClickButton('6')">6</button>
+            <button (click)="onClickButton('-')" class="operators">-</button>
+        </div>
+    
+        <div>
+            <button (click)="onClickButton('1')">1</button>
+            <button (click)="onClickButton('2')">2</button>
+            <button (click)="onClickButton('3')">3</button>
+            <button (click)="onClickButton('+')" class="operators">+</button>
+        </div>
+    
+        <div>
+            <button (click)="onClickButton('0')">0</button>
+            <button (click)="onClickButton('00')">00</button>
+            <button (click)="onClickButton('.')">.</button>
+            <button (click)="onClickButton('=')" class="equal-btn">=</button>
+        </div>
+    
+    </div>
+    
+    
+
+</div>
